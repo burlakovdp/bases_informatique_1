@@ -150,14 +150,3 @@ def chaine_vers_liste(ch):
     for i in range(res_counter+1):
         res1[i] = res[i]
     return res1
-
-
-def anton():
-    line = 'anton'
-    mem = ''
-    for i in range(4, -1, -1):
-        print(f'len(line) = {len(line)-1}')
-        print(f'i = {i}')
-        mem += line[i]
-        print(f'mem = {mem}')
-    print(mem)
