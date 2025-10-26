@@ -68,10 +68,34 @@ def moyenne(k, n):
         k = k - 1
     return somme / tmp
         
-     
-    
+def etoile():
+    print('*', end='')
 
+def diese():
+    print('#', end='')
 
+def nouvelle_ligne():
+    print()
     
-    
+def frise(n):
+    i = 0
+    while i < n:
+        if i % 2 != 0:
+            etoile()
+        else:
+            diese()
+        i += 1
+    return nouvelle_ligne()
+
+def affiche_calcul_binaire(n):
+    while n > 0:
+        print(n % 2, 'car',n, '=', '2 x', n//2, '+', n % 2)
+        n = n // 2 
+
+def affiche_binaire(n):
+    res = ''
+    while n > 0:
+        res = str(n % 2) + res
+        n = n // 2
+    print(res)
         

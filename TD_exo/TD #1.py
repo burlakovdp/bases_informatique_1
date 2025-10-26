@@ -1,9 +1,3 @@
-
-"""
-def test():
-    return 5- 5.0
-"""
-
 def max(a, b):
     if a > b:
         return a
@@ -69,6 +63,7 @@ def hms(n):
     if s > 1:
         text_s = text_s + 's'
     print(n, '--->', h, text_h, m, text_m, s, text_s)
+    
     
 assert max(1, 2) == 2
 assert max(2, 3) == 3
