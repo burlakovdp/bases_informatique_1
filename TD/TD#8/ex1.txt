@@ -1,0 +1,2 @@
+La lettre la plus présente dans le fichier dictionnaire.txt est e
+La lettre la plus présente dans le fichier dictionnaire.txt est i
