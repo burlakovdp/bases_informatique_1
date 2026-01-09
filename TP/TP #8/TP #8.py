@@ -1,7 +1,7 @@
 import random
 
-CHEMIN = '/Users/burlakov/Desktop/Univ/TD#8/dictionnaire.txt'
-MY_CHEMIN = '/Users/burlakov/Desktop/Univ/TD#8/ex1.txt'
+CHEMIN = '../TP #8/dictionnaire.txt'
+MY_CHEMIN = '../TD #8/ex1.txt'
 
 def ensemble_de_lettres(chemin):
     fichier = open(chemin, 'r', encoding='utf-8')
